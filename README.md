@@ -2,7 +2,7 @@
 
 ![IKPMJ Logo](public/img/IKPMJ.png)
 
-Ini adalah proyek website resmi untuk IKPMJ (Ikatan Keluarga Pelajar Mahasiswa Jambi) yang dibangun menggunakan Next.js dan TypeScript.
+Ini adalah proyek website resmi untuk IKPMJ (Ikatan Keluarga Pelajar Mahasiswa Jember) yang dibangun menggunakan Next.js dan TypeScript.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
