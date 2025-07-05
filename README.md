@@ -1,24 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Canyon University Template Next.js
 
-## Getting Started
+Proyek ini adalah konversi dari template HTML Canyon University ke Next.js.
 
-First, run the development server:
+## Fitur
+
+- Responsif untuk semua ukuran perangkat
+- Dibangun dengan Next.js dan TypeScript
+- Komponen yang dapat digunakan kembali
+- Optimasi gambar dengan Next.js Image
+- SEO yang dioptimalkan
+
+## Memulai
+
+Pertama, jalankan server pengembangan:
 
 ```bash
 npm run dev
-# or
+# atau
 yarn dev
-# or
+# atau
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka [http://localhost:3000](http://localhost:3000) dengan browser Anda untuk melihat hasilnya.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Struktur Proyek
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+├── public/             # Aset statis (gambar, CSS, dll.)
+├── src/                # Kode sumber
+│   ├── app/            # Direktori aplikasi Next.js
+│   │   ├── page.tsx    # Halaman beranda
+│   │   └── layout.tsx  # Layout aplikasi
+│   ├── components/     # Komponen React yang dapat digunakan kembali
+│   └── styles/         # Stylesheet tambahan (jika diperlukan)
+└── package.json        # Dependensi proyek
+```
+
+## Teknologi
+
+- [Next.js](https://nextjs.org/) - Framework React
+- [TypeScript](https://www.typescriptlang.org/) - JavaScript dengan sintaks tipe
+- [Bootstrap](https://getbootstrap.com/) - Framework CSS
+- [AOS](https://michalsnik.github.io/aos/) - Animasi saat scroll
+
+## Pengembangan
+
+Proyek ini menggunakan perintah standar Next.js:
+
+- `npm run dev` - Jalankan server pengembangan
+- `npm run build` - Bangun aplikasi untuk produksi
+- `npm run start` - Jalankan aplikasi yang sudah dibangun
+
+## Lisensi
+
+Proyek ini dilisensikan di bawah [MIT License](https://opensource.org/licenses/MIT).
 
 ## Learn More
 
