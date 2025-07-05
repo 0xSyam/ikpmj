@@ -1,72 +1,90 @@
-# Canyon University Template Next.js
+# IKPMJ Website - Next.js
 
-Proyek ini adalah konversi dari template HTML Canyon University ke Next.js.
+![IKPMJ Logo](public/img/IKPMJ.png)
 
-## Fitur
+Ini adalah proyek website resmi untuk IKPMJ (Ikatan Keluarga Pelajar Mahasiswa Jambi) yang dibangun menggunakan Next.js dan TypeScript.
 
-- Responsif untuk semua ukuran perangkat
-- Dibangun dengan Next.js dan TypeScript
-- Komponen yang dapat digunakan kembali
-- Optimasi gambar dengan Next.js Image
-- SEO yang dioptimalkan
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Memulai
+---
 
-Pertama, jalankan server pengembangan:
+## 🌟 Fitur Utama
 
-```bash
-npm run dev
-# atau
-yarn dev
-# atau
-pnpm dev
+- **Desain Modern & Responsif**: Tampilan yang menarik dan dapat diakses di berbagai perangkat, dari desktop hingga mobile.
+- **Framework Terbaru**: Dibangun di atas Next.js 14 dengan App Router untuk performa dan pengalaman pengembang terbaik.
+- **TypeScript**: Kode yang lebih aman dan mudah dikelola dengan static typing.
+- **Komponen Modular**: Struktur berbasis komponen dengan React untuk kemudahan penggunaan kembali dan pemeliharaan.
+- **Optimasi Gambar**: Pemuatan gambar yang efisien menggunakan komponen `next/image`.
+- **SEO Friendly**: Struktur yang dioptimalkan untuk mesin pencari agar mudah ditemukan.
+- **Animasi Halus**: Menggunakan AOS (Animate On Scroll) untuk pengalaman pengguna yang lebih dinamis.
+
+## 🛠️ Teknologi yang Digunakan
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Bahasa**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) & [Bootstrap](https://getbootstrap.com/)
+- **Animasi**: [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/)
+- **Linting**: [ESLint](https://eslint.org/)
+- **Package Manager**: npm
+
+## 🚀 Memulai Proyek
+
+Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
+
+1.  **Clone repository:**
+    ```bash
+    git clone https://github.com/0xSyam/IKPMJ.git
+    cd IKPMJ
+    ```
+
+2.  **Instalasi dependensi:**
+    ```bash
+    npm install
+    ```
+
+3.  **Jalankan server pengembangan:**
+    ```bash
+    npm run dev
+    ```
+
+4.  Buka browser Anda dan kunjungi [http://localhost:3000](http://localhost:3000) untuk melihat hasilnya.
+
+## 📂 Struktur Proyek
+
+```
+ikpmj-nextjs/
+├── public/                 # Aset statis (gambar, font, CSS)
+│   ├── css/
+│   ├── fonts/
+│   ├── img/
+│   └── js/
+├── src/                    # Kode sumber aplikasi
+│   ├── app/                # Halaman dan layout (App Router)
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components/         # Komponen React yang dapat digunakan kembali
+│   └── types/              # Definisi tipe TypeScript
+├── .gitignore
+├── next.config.mjs         # Konfigurasi Next.js
+├── package.json            # Dependensi dan skrip proyek
+└── tsconfig.json           # Konfigurasi TypeScript
 ```
 
-Buka [http://localhost:3000](http://localhost:3000) dengan browser Anda untuk melihat hasilnya.
+## 🤝 Kontribusi
 
-## Struktur Proyek
+Kontribusi untuk pengembangan proyek ini sangat diharapkan. Jika Anda ingin berkontribusi, silakan buat *fork* dari repositori ini dan ajukan *pull request*.
 
-```
-├── public/             # Aset statis (gambar, CSS, dll.)
-├── src/                # Kode sumber
-│   ├── app/            # Direktori aplikasi Next.js
-│   │   ├── page.tsx    # Halaman beranda
-│   │   └── layout.tsx  # Layout aplikasi
-│   ├── components/     # Komponen React yang dapat digunakan kembali
-│   └── styles/         # Stylesheet tambahan (jika diperlukan)
-└── package.json        # Dependensi proyek
-```
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
 
-## Teknologi
+## 📄 Lisensi
 
-- [Next.js](https://nextjs.org/) - Framework React
-- [TypeScript](https://www.typescriptlang.org/) - JavaScript dengan sintaks tipe
-- [Bootstrap](https://getbootstrap.com/) - Framework CSS
-- [AOS](https://michalsnik.github.io/aos/) - Animasi saat scroll
+Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
-## Pengembangan
+---
 
-Proyek ini menggunakan perintah standar Next.js:
-
-- `npm run dev` - Jalankan server pengembangan
-- `npm run build` - Bangun aplikasi untuk produksi
-- `npm run start` - Jalankan aplikasi yang sudah dibangun
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah [MIT License](https://opensource.org/licenses/MIT).
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Dibuat dengan ❤️ untuk IKPMJ.
