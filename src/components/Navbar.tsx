@@ -124,7 +124,7 @@ const Navbar: React.FC = () => {
             <ul className="contact-info list-style">
               <li>
                 <i className="bx bxs-envelope"></i>
-                <a href="mailto:contact@Clgunme.edu">contact@Clgunme.edu</a>
+                <a href="mailto:ikpmj@gmail.com">ikpmj@gmail.com</a>
               </li>
               <li>
                 <i className="bx bxs-time"></i>
