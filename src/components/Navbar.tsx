@@ -23,10 +23,10 @@ const Navbar: React.FC = () => {
       <div className="navbar-area style-2" id="navbar">
         <div className="container-fluid">
           <nav className="navbar navbar-expand-lg">
-            <a className="navbar-brand" href="https://lovely-bavarois-b19658.netlify.app/">
+            <a className="navbar-brand" >
               {/* Replace with Link component later */}
               <Image className="logo-light" src="/img/ikpmj.png" alt="logo" width={150} height={40} style={{ height: "auto" }} />
-              <Image className="logo-dark" src="/img/IKPMJ-DARk.png" alt="logo" width={150} height={40} style={{ height: "auto" }} />
+<Image className="logo-dark" src="/img/IKPMJ-DARK.png" alt="logo" width={150} height={40} style={{ height: "auto" }} />
             </a>
             <div className="other-option d-lg-none">
               <div className="option-item">
@@ -83,7 +83,7 @@ const Navbar: React.FC = () => {
       {/* Start Responsive Navbar Area */}
       <div className="responsive-navbar offcanvas offcanvas-end" data-bs-backdrop="static" tabIndex={-1} id="navbarOffcanvas">
         <div className="offcanvas-header">
-          <a className="logo d-inline-block" href="https://lovely-bavarois-b19658.netlify.app/">
+          <a className="logo d-inline-block">
             {/* Replace with Link component later */}
             <Image className="logo-light" src="/img/logo.png" alt="logo" width={150} height={40} style={{ height: "auto" }} />
           </a>
